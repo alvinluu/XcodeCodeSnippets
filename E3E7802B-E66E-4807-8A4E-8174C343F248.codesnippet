@@ -3,22 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>notifadd</string>
+	<string>transition view</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(&lt;#selector#&gt;:) name:&lt;#name#&gt; object:nil];</string>
+	<string>    [UIView transitionWithView:self.view duration:0.5 options:UIViewAnimationOptionTransitionFlipFromTop animations:^{
+        &lt;#ui object animation#&gt;
+    } completion:nil];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4E2F1BC7-D63C-4B2F-9348-5D4CD9E8B420</string>
+	<string>E3E7802B-E66E-4807-8A4E-8174C343F248</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Notification Add Observer</string>
+	<string>transition view</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

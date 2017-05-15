@@ -3,22 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>notifadd</string>
+	<string>gesture</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(&lt;#selector#&gt;:) name:&lt;#name#&gt; object:nil];</string>
+	<string>UISwipeGestureRecognizer *swipeGesture = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(&lt;#selector#&gt;:)];
+[&lt;#ui view#&gt; addGestureRecognizer:swipeGesture];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4E2F1BC7-D63C-4B2F-9348-5D4CD9E8B420</string>
+	<string>6A27352A-40CA-4A8A-8BAF-87D5E48F08DB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Notification Add Observer</string>
+	<string>add Gesture</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
