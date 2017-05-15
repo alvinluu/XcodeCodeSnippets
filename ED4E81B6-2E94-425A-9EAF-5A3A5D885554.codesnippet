@@ -3,22 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>notifadd</string>
+	<string>main thread</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(&lt;#selector#&gt;) name:&lt;#name#&gt; object:nil];</string>
+	<string>    dispatch_async(dispatch_get_main_queue(), ^{
+        &lt;#code#&gt;
+    });</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4E2F1BC7-D63C-4B2F-9348-5D4CD9E8B420</string>
+	<string>ED4E81B6-2E94-425A-9EAF-5A3A5D885554</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Notification Add Observer</string>
+	<string>Dispatch main</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
