@@ -9,7 +9,7 @@
 		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[NSString stringWithFormat:@"&lt;#text#&gt; %@", &lt;#value#&gt;]w;</string>
+	<string>[NSString stringWithFormat:@"&lt;#text#&gt; %@", &lt;#value#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DA05E5BB-34C8-42F8-841E-D3260B53FF81</string>
 	<key>IDECodeSnippetLanguage</key>
