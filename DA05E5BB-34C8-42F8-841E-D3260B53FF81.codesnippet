@@ -3,17 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-<<<<<<< HEAD
 	<string>stringWithFormat</string>
-=======
-	<string>stringWithFormat3</string>
->>>>>>> origin/master
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[NSString stringWithFormat:@"&lt;#text#&gt; %@", &lt;#value#&gt;];</string>
+	<string>[NSString stringWithFormat:@"&lt;#text#&gt; %@", &lt;#value#&gt;]w;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DA05E5BB-34C8-42F8-841E-D3260B53FF81</string>
 	<key>IDECodeSnippetLanguage</key>
