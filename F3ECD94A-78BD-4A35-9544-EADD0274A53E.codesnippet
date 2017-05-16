@@ -3,23 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>load storyboard</string>
+	<string>func block</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>			UIStoryboard *theStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-			UIViewController *theVC = [theStoryboard instantiateViewControllerWithIdentifier:@"&lt;#controller#&gt;"];</string>
+	<string>- (void)&lt;#function name#&gt;WithCompletionBlock:(void (^ _Nullable)(BOOL finished))compBlock
+{
+    &lt;#code#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DB47B2B5-9BCF-4110-AD31-94DA6EC12DBC</string>
+	<string>F3ECD94A-78BD-4A35-9544-EADD0274A53E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Load storyboard</string>
+	<string>Function w/ Completion Block</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
