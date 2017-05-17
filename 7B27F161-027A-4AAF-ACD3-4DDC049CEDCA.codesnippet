@@ -3,23 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>load storyboard</string>
+	<string>new dictionary</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>			UIStoryboard *theStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-			UIViewController *theVC = [theStoryboard instantiateViewControllerWithIdentifier:@"&lt;#controller#&gt;"];</string>
+	<string>NSDictionary *dict = @{@"&lt;#key#&gt;:@"&lt;#value#&gt;"};</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DB47B2B5-9BCF-4110-AD31-94DA6EC12DBC</string>
+	<string>7B27F161-027A-4AAF-ACD3-4DDC049CEDCA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Load storyboard</string>
+	<string>New Dictionary</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

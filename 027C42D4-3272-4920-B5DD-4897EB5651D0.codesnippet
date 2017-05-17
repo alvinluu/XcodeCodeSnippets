@@ -3,23 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>load storyboard</string>
+	<string>json to string</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>			UIStoryboard *theStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-			UIViewController *theVC = [theStoryboard instantiateViewControllerWithIdentifier:@"&lt;#controller#&gt;"];</string>
+	<string>NSError *dbgError = nil;
+                NSData *dbgJsonData = [NSJSONSerialization dataWithJSONObject:mutableJsonData options:NSJSONWritingPrettyPrinted error:&amp;dbgError];
+                NSString *dbgJsonString = [[NSString alloc] initWithData:dbgJsonData encoding:NSUTF8StringEncoding];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DB47B2B5-9BCF-4110-AD31-94DA6EC12DBC</string>
+	<string>027C42D4-3272-4920-B5DD-4897EB5651D0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Load storyboard</string>
+	<string>JSON to String</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

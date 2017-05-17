@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>json to dictionary</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSError *serializationError = nil;
+                     // decode the response (which is expected to be a JSON dictionary) into something we can work with (an NSDictionary)
+                    id jsonObject = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingAllowFragments error:&amp;serializationError];
+                    if (serializationError == nil) {
+                        if (jsonObject &amp;&amp; [jsonObject isKindOfClass:[NSDictionary class]]) {
+                            responseDict = (NSDictionary *)jsonObject;
+                        }
+                        else {
+                            responseDict = @{};
+                        }
+                    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0AEFE04F-7914-489D-BAD8-9DB19ED1F7F7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>JSON to Dictionary</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

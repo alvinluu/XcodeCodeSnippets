@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[UIView animateWithDuration:&lt;#time#&gt;f
+	<string>[UIView animateWithDuration:&lt;#time#&gt;
                      animations:^(void) {
                          &lt;#code#&gt;
                      }
@@ -21,7 +21,7 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>animation</string>
+	<string>UIView animation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
