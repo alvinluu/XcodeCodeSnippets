@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swipe gesture</string>
+	<string>tap gesture</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UISwipeGestureRecognizer *swipeGesture = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(&lt;#selector#&gt;)];
-[&lt;#ui view#&gt; addGestureRecognizer:swipeGesture];</string>
+	<string>UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(&lt;#selector#&gt;)];
+	[&lt;#ui view#&gt; addGestureRecognizer:tapGesture];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6A27352A-40CA-4A8A-8BAF-87D5E48F08DB</string>
+	<string>EE960567-FB3F-4DBB-AB21-474DB571D2E0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Add Swipe Gesture</string>
+	<string>Add Tap Gesture</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

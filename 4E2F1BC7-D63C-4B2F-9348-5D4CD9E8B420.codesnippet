@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(&lt;#selector#&gt;:) name:&lt;#name#&gt; object:nil];</string>
+	<string>[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(&lt;#selector#&gt;) name:&lt;#name#&gt; object:nil];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4E2F1BC7-D63C-4B2F-9348-5D4CD9E8B420</string>
 	<key>IDECodeSnippetLanguage</key>

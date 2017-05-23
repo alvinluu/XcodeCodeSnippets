@@ -3,20 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swipe gesture</string>
+	<string>iboutlet weak property</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UISwipeGestureRecognizer *swipeGesture = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(&lt;#selector#&gt;)];
-[&lt;#ui view#&gt; addGestureRecognizer:swipeGesture];</string>
+	<string>@property (weak, nonatomic) IBOutlet &lt;#Object#&gt; &lt;#var name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6A27352A-40CA-4A8A-8BAF-87D5E48F08DB</string>
+	<string>79D6ABB4-117E-4B5D-BBE4-41F79CCE33AA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Add Swipe Gesture</string>
+	<string>IBOutlet weak property</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
