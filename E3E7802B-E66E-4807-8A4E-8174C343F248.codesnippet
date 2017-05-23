@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>transition view</string>
+	<string>transition animation</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    [UIView transitionWithView:self.view duration:0.5 options:UIViewAnimationOptionTransitionFlipFromTop animations:^{
-        &lt;#ui object animation#&gt;
-    } completion:nil];</string>
+	<string> [UIView transitionWithView:&lt;#view#&gt; duration:0.5 options:UIViewAnimationOption animations:^{
+     
+ } completion:^(BOOL finished) {
+     
+ }];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E3E7802B-E66E-4807-8A4E-8174C343F248</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>transition view</string>
+	<string>Transition Animation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

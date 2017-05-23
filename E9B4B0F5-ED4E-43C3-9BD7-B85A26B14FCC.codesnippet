@@ -11,10 +11,10 @@
 	<key>IDECodeSnippetContents</key>
 	<string>[UIView animateWithDuration:&lt;#time#&gt;
                      animations:^(void) {
-                         &lt;#code#&gt;
+                         
                      }
                      completion:^(BOOL finished) {
-                         &lt;#code#&gt;
+                         
                      }];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E9B4B0F5-ED4E-43C3-9BD7-B85A26B14FCC</string>
