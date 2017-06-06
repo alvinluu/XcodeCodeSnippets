@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>if analytics</string>
+	<string>mark event handlers</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#ifdef ANALYTICS
-&lt;#code#&gt;
-#endif</string>
+	<string>#pragma mark - Event Handlers</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>14A61EAC-D43E-401A-957C-77220EA8396A</string>
+	<string>4237440B-4957-441C-B854-2DF6F1972A3D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>#ifdef ANALYTICS</string>
+	<string>#pragma mark - Event Handlers</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>if analytics</string>
+	<string>ib strong property</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#ifdef ANALYTICS
-&lt;#code#&gt;
-#endif</string>
+	<string>@property (weak, nonatomic) IBOutlet &lt;#Object#&gt; &lt;#var name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>14A61EAC-D43E-401A-957C-77220EA8396A</string>
+	<string>EA4BC3D9-DD50-4328-B38F-F795478A48F8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>#ifdef ANALYTICS</string>
+	<string>IBOutlet strong property</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
